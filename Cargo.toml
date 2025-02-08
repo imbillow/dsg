@@ -1,0 +1,15 @@
+[package]
+name = "dsg"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+
+[[bin]]
+name = "dsg"
+
+[dependencies]
+lalrpop-util = { version = "0.22.1", features = ["lexer"] }
+
+[build-dependencies]
+lalrpop = "0.22.1"
